@@ -1,0 +1,72 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #e4e2e2;
+}
+
+.nose {
+    max-width: 200px;
+}
+
+img a {
+    width: 400px;
+    height: 400px;
+}
+header {
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    float: right;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0; 
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.3);
+}
+
+section article h2, section article p {
+    margin: 3rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+footer a {
+    transition: color 0.3s ;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}

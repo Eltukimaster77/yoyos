@@ -1,0 +1,454 @@
+html {
+    /* ME PERMITE DESLIZAR CUANDO HAGO CLIC EN LOS LINKS DEL MENU */
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #191f22;
+}
+
+span {
+    color: #1CB698;
+}
+
+/* MENU */
+.cont-header {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    margin: 0 auto;
+}
+
+.cont-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.cont-header header .logo a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px ;
+    color: #1CB698;
+    text-decoration: none;
+}
+
+.cont-header header ul {
+    display: flex;
+    list-style: none;
+}
+
+.cont-header header nav ul li a {
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.cont-header header nav ul li a:hover {
+    color: #1CB698;
+}
+
+/* nav */
+.nav-responsive {
+    background-color: #1CB698;
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer; 
+    display: none;
+}
+
+.inicio .cont-banner {
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}   
+
+/* SECCION INICIO */
+.inicio {
+    background: #2b3134;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;    
+    align-items: center;
+    padding-top: 100px; 
+    text-align: left;
+}
+    
+.inicio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10rem;
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    margin: auto;
+}
+
+.redes-s a {
+    color: #fff;    
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+.home {
+    align-items: center;
+    padding: 9% 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    min-height: 30rem;
+}
+
+.cont-home {
+    max-width: 40rem;
+}
+
+.cont-home  h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 0.1;
+    margin: 0;
+    color: #fff;
+}
+.cont-home h3 {
+    font-size: 2rem;
+    margin: 0.5cm 0;
+    color: #1CB698;
+}
+
+.cont-home p {
+    font-size: 1.1rem;
+    margin: 1rem 0 1rem;
+    color: #fff;
+}
+
+.btn1 {
+    background-color: #1cb6978e;
+    padding: 0.5rem 1rem;
+    margin-left: 10rem;
+    margin-right: 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #fff;   
+}
+
+.btn2 {
+    background-color: #1cb6978e;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.no {
+    text-wrap: pretty;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.educacion {
+    background: #2b3134;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+    color: #fff;
+    padding-right: 10rem;
+}
+
+.educacion2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+    color: #fff;
+    padding-right: 10rem;
+}
+
+.educacion .fila-educ {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.fila-educ .colum-educ {
+    flex: 1 1 40rem;
+}
+
+.colum-educ .titulo {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.colum-educ .box-educ {
+    border-left: .2rem solid #1CB698;
+}
+
+.box-educ .cont-educ {
+    position: relative;
+    padding-left: 1.3rem;   
+}
+
+.cont-educ .cont {
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid #1CB698;
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+    background-color: #24292c;
+}
+
+.cont-educ .cont h3 {
+    color: #1CB698;
+    font-size: 1.5rem;
+}
+
+/* SECCION SKILLS IZQ*/
+.container {
+    display: relative;
+    justify-content: space-between;
+}
+
+.main-text {
+    text-align: center;
+}
+
+.nose {
+    margin-bottom: 0px;
+}
+
+.skills {
+    background: #2b3134;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.skill-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    color: #fff;
+}
+
+.skill-bar {
+    margin-bottom: 2.4rem;
+}
+
+.skill-main h3 {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.main-text {
+    color: #fff;
+}
+
+.skill-left .skill-bar .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill-left .skill-bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: #191f22;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: #1CB698;
+    border-radius: 25px;
+}
+
+.skill-bar .bar .html {
+    width: 72%;
+    animation: html 3s;
+}
+
+.skill-bar .bar .css {
+    width: 60%;
+    animation: css 2.5s;
+}
+
+.skill-bar .bar .javascript {
+    width: 55%;
+    animation: javascript 2s;
+}
+
+.skill-bar .bar .python {
+    width: 10%;
+    animation: python 1s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+
+/* SECCION SKILLS DER*/
+.skill-main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+    color: #fff;
+}
+
+.skill-bar {
+    margin-bottom: 2.4rem;
+}
+
+.skill-main h3 {
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.main-text {
+    color: #fff;
+}
+
+
+
+.skill-right .skill-bar .bar {
+    width: 100%;
+    height: 10px;
+    background-color: #191f22;
+    border-radius: 25px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.skill-bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: #1CB698;
+    border-radius: 25px;
+}
+
+.skill-bar .bar .html {
+    width: 72%;
+    animation: html 3s;
+}
+
+.skill-bar .bar .css {
+    width: 60%;
+    animation: css 2.5s;
+}
+
+.skill-bar .bar .javascript {
+    width: 55%;
+    animation: javascript 2s;
+}
+
+.skill-bar .bar .python {
+    width: 10%;
+    animation: python 1s;
+}   
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
